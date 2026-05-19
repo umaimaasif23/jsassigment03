@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Q1 -->
+    <!-- sign up form -->
+
+   <form onsubmit="signup(event)"> First Name : <input type="text" id="fname" name="fname" value="abc"><br><br>
+    Last Name : <input type="text" id="lname" name="lname" value="def"><br><br>
+    Email :  <input type="email" id="email" name="email" value="xyz@gmail.com"><br><br>
+<button type="submit" >Sign Up</button></form>
+<p id="result"></p> 
+
+<!-- Q2 -->
+<p id="para">Modern mobile phones, or smartphones, are advanced handheld computers that combine communication, computing, and multimedia functionalities...</p>
+<a href="JavaScript:void(0)" onclick="fullPara()">Read More</a> -->
+
+<!-- Q3 -->
+ <input id="fname" placeholder="Name"><br> <br>
+<input id="age" placeholder="Age"><br> <br>
+<input id="stclass" placeholder="Enter class"> <br> <br>
+<button onclick="add()">Add</button>
+<br> <br>
+
+<table border="1" id="table">
+    <tr><th>Name</th>
+    <th>Age</th>
+    <th>Class</th>
+    <th>Action</th></tr>
+</table>
+
+
+<div id="editBox" style="display:none;">
+  <input id="eName">
+  <input id="eAge">
+  <input id="eClass">
+  <button onclick="update()">Update</button>
+</div> 
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
